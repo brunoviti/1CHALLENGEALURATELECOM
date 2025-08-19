@@ -12,8 +12,7 @@ En este desafío, el enfoque está en el proceso de extracción de datos desde l
 
         data/: Almacena el conjunto de datos original (telecom_data.csv) y la versión tratada del mismo.
 
-        images/: Carpeta para guardar los gráficos y visualizaciones generadas durante el análisis.
-
+        diccionario/: archivo con el detalle de las columnas y sus nombres
 ## 3. Gráficos e Insights Clave
     El análisis exploratorio reveló hallazgos importantes sobre los datos, los cuales fueron visualizados a través de gráficos:
 
@@ -38,27 +37,3 @@ En este desafío, el enfoque está en el proceso de extracción de datos desde l
 
     Ejecutar el cuaderno: Abra el archivo notebook/telecom_eda.ipynb en su entorno de Jupyter y ejecute las celdas en orden.
 
-
-
-## **Diccionario de datos**
-customerID: número de identificación único de cada cliente
-Churn: si el cliente dejó o no la empresa
-gender: género (masculino y femenino)
-SeniorCitizen: información sobre si un cliente tiene o no una edad igual o mayor a 65 años
-Partner: si el cliente tiene o no una pareja
-Dependents: si el cliente tiene o no dependientes
-tenure: meses de contrato del cliente
-PhoneService: suscripción al servicio telefónico
-MultipleLines: suscripción a más de una línea telefónica
-InternetService: suscripción a un proveedor de internet
-OnlineSecurity: suscripción adicional de seguridad en línea
-OnlineBackup: suscripción adicional de respaldo en línea
-DeviceProtection: suscripción adicional de protección del dispositivo
-TechSupport: suscripción adicional de soporte técnico, menor tiempo de espera
-StreamingTV: suscripción de televisión por cable
-StreamingMovies: suscripción de streaming de películas
-Contract: tipo de contrato
-PaperlessBilling: si el cliente prefiere recibir la factura en línea
-PaymentMethod: forma de pago
-Charges.Monthly: total de todos los servicios del cliente por mes
-Charges.Total: total gastado por el cliente
